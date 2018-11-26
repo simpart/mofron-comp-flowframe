@@ -41,11 +41,12 @@ mf.comp.FlowFrame = class extends Frame {
                 new Fade(),
                 new FlowMgn('left', ['0.2rem', '-0.2rem']),
                 new Size({
-                    width     : ['1rem', '0rem'],
-                    height    : ['1rem', '0rem'],
+                    width     : [ this.width(), '0rem'],
+                    height    : [ this.height(), '0rem'],
                     execOrder : 1
                 })
             ]);
+            
         } catch (e) {
             console.error(e.stack);
             throw e;
