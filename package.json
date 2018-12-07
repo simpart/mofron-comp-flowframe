@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/simpart/mofron-comp-flowframe.git"
   },
+  "dependencies": {
+    "mofron-comp-frame" : "",
+    "mofron-effect-fade" : "",
+    "mofron-effect-flowmgn" : "",
+    "mofron-effect-size" : ""
+  },
   "keywords": [
     "front-end"
   ],
